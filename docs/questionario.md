@@ -127,3 +127,23 @@ Partindo do pressuposto que a variável cursos_home possui outros dicionários a
 - [ ] Será exibido o id do primeiro curso existente no dicionário cursos_home.
 
 <hr>
+
+# Qual template tag utilzamos para criar uma execução condicional no sistema de template do Django?
+
+- [x] {% if %}.
+- [ ] {% if_django %}.
+- [ ] {% case %}.
+- [ ] {% switch %}.
+- [ ] {% conditional %}.
+- [ ] {% else %}.
+<hr>
+
+# Qual template tag utilzamos para não exibir dados imediatamente iguais no DTL?
+
+- [ ] {% case %}.
+- [ ] {% switch %}.
+- [X] {% ifchanged %}.
+- [ ] {% else %}.
+- [ ] {% if_django %}.
+- [ ] {% conditional %}.
+<hr>
