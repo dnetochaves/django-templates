@@ -166,3 +166,30 @@ Partindo do pressuposto que a variável cursos_home possui outros dicionários a
 - [ ] size.
 - [ ] lower.
 <hr>
+
+# Qual o nome do diretório padrão que o Django usa para armazenar arquivos estáticos em seu projeto?
+
+- [ ] static_files/.
+- [ ] files_static/.
+- [x] static/.
+- [ ] css_js/.
+- [ ] files/.
+<hr>
+
+# Caso a estrutura dos diretórios que armazenam os arquivos estáticos de um projeto esteja da seguinte maneira: /static/arquivos/css, como devemos usar a tag static em nossos templates?
+
+- [ ] {% static 'arquivos/css/nome_do_arquivo.css' %}.
+- [x] O Django não encontrará o arquivo, já que a estrutura do diretório static está incorreta.
+- [ ] {% static 'app/css/nome_do_arquivo.css' %}.
+- [ ] {% static 'app/arquivos/nome_do_arquivo.css' %}.
+- [ ] {% static 'app/css/nome_do_arquivo.css' %}.
+<hr>
+
+# Qual tag utilizamos para que o Django reconheça o diretório static em nossos templates?
+
+- [ ] {% static %}.
+- [ ] {% load files %}.
+- [x] {% load static %}.
+- [ ] {% load static_files %}.
+- [ ] {% load stati %}.
+<hr>
