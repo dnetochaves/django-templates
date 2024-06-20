@@ -147,3 +147,22 @@ Partindo do pressuposto que a variável cursos_home possui outros dicionários a
 - [ ] {% if_django %}.
 - [ ] {% conditional %}.
 <hr>
+
+# Qual sintaxe utilizada para o uso de filtros no Django Templates?
+
+- [x] {{nome_da_variavel|nome_do_filtro}}.
+- [ ] {{nome_do_filtro|nome_da_variavel}}.
+- [ ] {{nome_da_variavel/nome_do_filtro}}.
+- [ ] {{nome_da_variavel?nome_do_filtro}}.
+- [ ] {% if_django %}.
+- [ ] {{nome_da_variavel:nome_do_filtro}}.
+<hr>
+
+# Qual filtro utilizado para transformar todos os caracteres de uma palavra (ou frase) em maiúsculo?
+
+- [ ] maiusculum.
+- [ ] upp.
+- [x] upper.
+- [ ] size.
+- [ ] lower.
+<hr>
