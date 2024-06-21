@@ -193,3 +193,50 @@ Partindo do pressuposto que a variável cursos_home possui outros dicionários a
 - [ ] {% load static_files %}.
 - [ ] {% load stati %}.
 <hr>
+
+
+
+# Qual template tag utilizada para herdar todo o conteúdo de uma página HTML em outro template?
+
+- [ ] {% register "localizacao_do_template/nome_do_template.html" %}.
+- [ ] {% use "localizacao_do_template/nome_do_template.html" %}
+- [ ] {% herds "localizacao_do_template/nome_do_template.html" %}.
+- [ ] {% include "localizacao_do_template/nome_do_template.html" %}.
+- [x] {% extends "localizacao_do_template/nome_do_template.html" %}.
+<hr>
+
+# Qual template tag utilizada para criar blocos que receberão o código HTML das páginas que herdarão do arquivo base?
+
+- [ ] {% blo %}.
+- [ ] {% content %}.
+- [x] {% block %}.
+- [ ] {% bloco %}.
+- [ ] {% conteudo %}.
+<hr>
+
+# Qual comando responsável por compilar os arquivos de tradução no Django?
+
+- [ ] python manage.py makemessages.  
+- [ ] django-admin compilemessages.
+- [ ] manage.py compilemessages.
+- [x] python manage.py compilemessages.
+- [ ] python compilemessages.
+<hr>
+
+# Após configurar a aplicação para alterar seu idioma em tempo de execução, o que acontece se passarmos um idioma que não está configurado?
+
+- [x] A aplicação exibirá um erro indicando que o idioma não existe.
+- [ ] A aplicação será executada com o idioma padrão, definido no arquivo settings.py.
+- [ ] A aplicação exibirá um erro indicando que a rota não existe.
+- [ ] O servidor será reiniciado.
+- [ ] A aplicação será executada com o último idioma selecionado.
+<hr>
+
+# Qual configuração devemos indicar onde os arquivos de tradução será armazenado?
+
+- [ ] LOCALE, no arquivo settings.py.
+- [ ] LOCALE_PATHS, no arquivo views.py.
+- [ ] PATHS, no arquivo models.py.
+- [x] LOCALE_PATHS, no arquivo settings.py.
+- [ ] PATHS, no arquivo settings.py.
+<hr>
